@@ -1,0 +1,92 @@
+.body{
+    padding: 80px;
+}
+.navBar{
+    display: flex;
+    justify-content:center;
+    background-color: gray;
+}
+.navitem{
+   background-color: black;
+   padding: 10px 20px;
+   text-align: center;
+   margin: 20px 10px;
+   color: white;
+}
+.mywork{
+    background-color: tomato;
+    text-align: center;
+
+}
+.myskills{
+    background-color: gray;
+}
+.my_bio{
+    width: 300px;
+    margin: 0 auto;
+    padding: 50px 0;
+    
+}
+
+.hero_image{
+    border: cyan;
+    display: inline;
+    height: 300px;
+    width: 300px;
+}
+.flexcontainer{
+    display: flex;
+    padding: 10px;
+    grid-template-rows: 33% 33% 33%;
+    grid-template-areas: "userresearch" "UIdesign" "webdesign";
+    background-color: blue;
+}
+#userresearch{
+    grid-area:userresearch ;
+}
+#uidesign{
+    grid-area:uidesign ;
+}
+#webdesign{
+    grid-area: webdesign;
+}
+
+.workgrid{
+
+    text-align: center;
+    padding: 20px 10px;
+}
+.box-grid{
+    margin: 20px auto;
+
+}
+.img-box{
+    display: block;
+    margin: 0 auto;
+    width: 300px;
+    height: auto;
+}
+.bmc-btn-text {
+    
+    display: inline;
+    line-height: 0;
+    cursor: pointer;
+    color: #B51A17;
+    text-decoration: underline;
+    background-color: #FF5F5F;
+    height: 60px;
+    border-radius: 12px;
+    font-size: 28px;
+    text-decoration: none !important;
+    display: inline-flex !important;
+    align-items: center;
+    padding: 20px;
+}
+.govhi1{
+    display: inline;
+    height: 300px;
+    width: 300px;
+}
+.dept_of_edu{
+    float:right
+}
